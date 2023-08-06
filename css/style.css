@@ -59,7 +59,38 @@ Author:             Jitu Chauhan
 /*-----------------------------------
     1. Body / Typography 
 -----------------------------------*/
+/*Customized
+*/
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 40px;
+    /* background-color: #25D366; */
+    background-color: #aa9144;
+    color: #fff;
+    border-radius: 20px;
+    text-align:center;
+    /* vertical-align: middle; */
+    font-size: 58px;
+    /* z-index: 100; */
+}
 
+a.whatsapp:hover {
+    color: #cce0cc;
+}
+
+.whatsapp-icon {
+    margin-top: 2px;
+}
+/* .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+/* End customized */
 body { font-size: 16px;
     background-color: #fff;
     color: #5d5c59;
@@ -169,6 +200,7 @@ label { }
 
 .space-small { padding-top: 40px; padding-bottom: 40px; }
 .space-medium { padding-top: 100px; padding-bottom: 100px; }
+.space-medium-custom { padding-top: 60px; padding-bottom: 100px; }
 .space-large { padding-top: 120px; padding-bottom: 120px; }
 .space-ex-large { padding-top: 140px; padding-bottom: 140px; }
 
@@ -250,6 +282,7 @@ label { }
 .section-title { }
 .title { color: #18150d; }
 .small-title{color: #84837f; font-size: 13px; letter-spacing: 1px; margin-bottom: 20px;}
+.small-title-custom{color: #aa9144; font-size: 13px; letter-spacing: 1px; margin-bottom: 20px; font-weight: 400;}
 .text-white { color: #fff; }
 .primary-sidebar { }
 .secondary-sidebar { }
@@ -360,7 +393,7 @@ label { }
 .hero-title-personal { font-size: 46px; color: #fff; line-height: 58px; font-weight: 600; margin-bottom: 3px; letter-spacing: -1px; }
 .hero-subtitle { font-size: 24px; color: #fff;font-style: italic; line-height: 58px; font-weight: 600; margin-bottom: 30px; letter-spacing: 0.8px; }
 .hero-text { font-size: 18px; color: #fff; margin-bottom: 30px; }
-.navigation { float: right; }
+.navigation { float:left; }
 .is-sticky .header {border-bottom: 1px solid #eae7e2;}
 #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #navigation:after, #navigation > ul:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
@@ -371,7 +404,7 @@ label { }
 #navigation.align-center > ul > li { display: inline-block; float: none; }
 #navigation.align-center ul ul { text-align: left; }
 #navigation.align-right > ul > li { float: right; }
-#navigation > ul > li > a { padding: 20px; font-size: 13px; color: #18150d; text-decoration: none; font-weight: 500; text-transform: uppercase; }
+#navigation > ul > li > a { padding: 20px; font-size: 14px; color: #aa9144; text-decoration:double; font-weight: 500; text-transform:uppercase; vertical-align: middle; padding-top: 30px; }
 #navigation > ul > li:hover > a { color: #ffffff; background-color: #aa9144; }
 #navigation > ul > li.has-sub > a { padding-right: 32px; }
 
