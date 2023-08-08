@@ -406,7 +406,7 @@ label { }
 #navigation.align-right > ul > li { float: right; }
 #navigation > ul > li > a { padding: 20px; font-size: 14px; color: #aa9144; text-decoration:double; font-weight: 500; text-transform:uppercase; vertical-align: middle; padding-top: 30px; }
 #navigation > ul > li:hover > a { color: #ffffff; background-color: #aa9144; }
-#navigation > ul > li.has-sub > a { padding-right: 32px; }
+#navigation > ul > li.has-sub > a { padding-right: 27px; }
 
 /*#navigation > ul > li.has-sub > a:after {
  position: absolute;
